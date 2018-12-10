@@ -13,6 +13,8 @@
 		7017B1DC21BA3C7D00CA9460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7017B1DB21BA3C7D00CA9460 /* Assets.xcassets */; };
 		7017B1DF21BA3C7D00CA9460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7017B1DD21BA3C7D00CA9460 /* LaunchScreen.storyboard */; };
 		7017B1E221BA3C7D00CA9460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017B1E121BA3C7D00CA9460 /* main.m */; };
+		7017B1F021BA4DFA00CA9460 /* sm3.c in Sources */ = {isa = PBXBuildFile; fileRef = 7017B1EF21BA4DFA00CA9460 /* sm3.c */; };
+		7017B1FC21BA6EC000CA9460 /* NSString+sm3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017B1FB21BA6EC000CA9460 /* NSString+sm3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7017B1DE21BA3C7D00CA9460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7017B1E021BA3C7D00CA9460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7017B1E121BA3C7D00CA9460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7017B1EE21BA4DFA00CA9460 /* sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm3.h; sourceTree = "<group>"; };
+		7017B1EF21BA4DFA00CA9460 /* sm3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm3.c; sourceTree = "<group>"; };
+		7017B1FA21BA6EC000CA9460 /* NSString+sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+sm3.h"; sourceTree = "<group>"; };
+		7017B1FB21BA6EC000CA9460 /* NSString+sm3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+sm3.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		7017B1D121BA3C7B00CA9460 /* SM3 */ = {
 			isa = PBXGroup;
 			children = (
+				7017B1E821BA408500CA9460 /* SM3 */,
 				7017B1D221BA3C7B00CA9460 /* AppDelegate.h */,
 				7017B1D321BA3C7B00CA9460 /* AppDelegate.m */,
 				7017B1D521BA3C7B00CA9460 /* ViewController.h */,
@@ -67,6 +74,17 @@
 				7017B1DD21BA3C7D00CA9460 /* LaunchScreen.storyboard */,
 				7017B1E021BA3C7D00CA9460 /* Info.plist */,
 				7017B1E121BA3C7D00CA9460 /* main.m */,
+			);
+			path = SM3;
+			sourceTree = "<group>";
+		};
+		7017B1E821BA408500CA9460 /* SM3 */ = {
+			isa = PBXGroup;
+			children = (
+				7017B1FA21BA6EC000CA9460 /* NSString+sm3.h */,
+				7017B1FB21BA6EC000CA9460 /* NSString+sm3.m */,
+				7017B1EF21BA4DFA00CA9460 /* sm3.c */,
+				7017B1EE21BA4DFA00CA9460 /* sm3.h */,
 			);
 			path = SM3;
 			sourceTree = "<group>";
@@ -142,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7017B1D721BA3C7B00CA9460 /* ViewController.m in Sources */,
+				7017B1F021BA4DFA00CA9460 /* sm3.c in Sources */,
+				7017B1FC21BA6EC000CA9460 /* NSString+sm3.m in Sources */,
 				7017B1E221BA3C7D00CA9460 /* main.m in Sources */,
 				7017B1D421BA3C7B00CA9460 /* AppDelegate.m in Sources */,
 			);
